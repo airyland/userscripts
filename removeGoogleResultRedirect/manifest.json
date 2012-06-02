@@ -1,0 +1,14 @@
+{
+   "content_scripts": [ {
+      "exclude_globs": [  ],
+      "include_globs": [ "*.google.*" ],
+      "js": [ "script.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "converted_from_user_script": true,
+   "description": "Remove google search result redirect.",
+   "key": "/I5ObkPmtqJr7G3p2qoljciswIkK2WdKBPes0KlQiZw=",
+   "name": "Google Search Redirect Reset Remove V2",
+   "version": "1.0"
+}
